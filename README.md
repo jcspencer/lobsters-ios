@@ -6,17 +6,19 @@ This app is a non-offical iOS app build with RubyMotion to browse and enjoy [Lob
 
 >Though not strictly forbidden by the license, please do not submit unmodified (or trivially modified) versions of this application to the App Store.
 
-## Screenshots!
-
-![story list view](screens/one.png)
->Story List View
-
-![story view](screens/two.png)
->Story View
-
 ## App Store
 
->Coming Soon.
+__Coming Soon__ (Currently awaiting approval).
+
+[![Download on the App Store](screens/app_store.png)](https://itunes.apple.com/us/app/lobsters/id895800346?ls=1&mt=8)
+
+## Screenshots!
+
+![story list view](screens/one.png =320x568)
+>Story List View
+
+![story view](screens/two.png =320x568)
+>Story View
 
 ## Building
 
@@ -48,6 +50,7 @@ See CONTRIBUTING.md
 - Unit testing
 - CI
 - Make comment viewing nicer
+- Offline cache
 - Any ideas? Open an issue!
 
 ## Licence
