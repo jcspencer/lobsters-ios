@@ -1,16 +1,13 @@
 # Lobsters for iOS
 
+[![Download on the App Store](screens/app_store.png)](https://itunes.apple.com/us/app/lobsters/id895800346?ls=1&mt=8)
+
 Lobsters is a technology-focused link-aggregation site created in July 2012 by joshua stein. It is similar to Hacker News, Reddit, and Slashdot, and borrows some ideas from, while also attempting to fixing problems specific to, each of those sites.
 
 This app is a non-offical iOS app build with RubyMotion to browse and enjoy [Lobste.rs](http://lobste.rs), whilst providing a native iOS feel.
 
 >Though not strictly forbidden by the license, please do not submit unmodified (or trivially modified) versions of this application to the App Store.
 
-## App Store
-
-__Coming Soon__ (Currently awaiting approval).
-
-[![Download on the App Store](screens/app_store.png)](https://itunes.apple.com/us/app/lobsters/id895800346?ls=1&mt=8)
 
 ## Screenshots!
 
