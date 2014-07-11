@@ -44,6 +44,12 @@ Have any feedback, bug reports, or comments? [Open an issue](https://github.com/
 
 See CONTRIBUTING.md
 
+### Roadmap
+- Unit testing
+- CI
+- Make comment viewing nicer
+- Any ideas? Open an issue!
+
 ## Licence
 
 The MIT License (MIT)
