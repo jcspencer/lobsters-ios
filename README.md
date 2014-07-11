@@ -14,10 +14,10 @@ __Coming Soon__ (Currently awaiting approval).
 
 ## Screenshots!
 
-![story list view](screens/one.png =320x568)
+![story list view](screens/one.png)
 >Story List View
 
-![story view](screens/two.png =320x568)
+![story view](screens/two.png)
 >Story View
 
 ## Building
