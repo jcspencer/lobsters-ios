@@ -27,8 +27,8 @@ Dependencies:
 [RubyMotion](http://www.rubymotion.com/)
 [Ruby](https://www.ruby-lang.org/en/)
 [Bundler](http://bundler.io/)
-[XCode](https://developer.apple.com/xcode/)
-[CocoaPods](http://cocoapods.org/)
+[XCode](https://developer.apple.com/xcode/) (newer than XCode 5)
+[CocoaPods](http://cocoapods.org/) (fetched by bundler)
 
 To build `lobsters-ios`, firstly clone this repository locally and change into it's directory.
 
