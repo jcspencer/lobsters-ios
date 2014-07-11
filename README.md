@@ -2,7 +2,7 @@
 
 Lobsters is a technology-focused link-aggregation site created in July 2012 by joshua stein. It is similar to Hacker News, Reddit, and Slashdot, and borrows some ideas from, while also attempting to fixing problems specific to, each of those sites.
 
-This app is a non-offical app to browse and enjoy [Lobste.rs](http://lobste.rs), whilst providing a native iOS feel.
+This app is a non-offical iOS app build with RubyMotion to browse and enjoy [Lobste.rs](http://lobste.rs), whilst providing a native iOS feel.
 
 >Though not strictly forbidden by the license, please do not submit unmodified (or trivially modified) versions of this application to the App Store.
 
@@ -35,6 +35,14 @@ To build `lobsters-ios`, firstly clone this repository locally and change into i
 1. Grab the Ruby gems: `bundle install`
 2. Grab the CocoaPods: `rake pod:install`
 3. Run it! `rake` (simulator) or `rake device` (device)
+
+## Issues
+
+Have any feedback, bug reports, or comments? [Open an issue](https://github.com/JamesS237/lobsters-ios/issues)!
+
+## Contributing
+
+See CONTRIBUTING.md
 
 ## Licence
 
