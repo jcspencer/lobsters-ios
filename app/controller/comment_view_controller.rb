@@ -5,6 +5,10 @@ class CommentListController < UITableViewController
     @endpoint = "s/" + value + ".json"
   end
 
+  def sid
+    @sid
+  end
+
   def viewDidLoad
     set_reloader
     self.tableView.setSeparatorStyle(UITableViewCellSeparatorStyleNone)
@@ -28,7 +32,8 @@ class CommentListController < UITableViewController
       view.reloadData
       hud.hide(true)
     end
-    navigationController.setNavigationBarHidden(false, animated:true)
+
+    #navigationController.setNavigationBarHidden(false, animated:true)
   end
 
   # create a loader hud
@@ -38,7 +43,7 @@ class CommentListController < UITableViewController
     hud.square = true
     hud.mode = MBProgressHUDModeCustomView
     hud.customView = spinner
-    #hud.labelText = msg
+    hud.labelText = msg
     spinner.startAnimating
 
     hud
@@ -47,7 +52,7 @@ class CommentListController < UITableViewController
   # add pull to refresh
   def set_reloader
     @refreshControl = UIRefreshControl.alloc.init
-    @refreshControl.tintColor = UIColor.magentaColor
+    @refreshControl.tintColor = UIColor.grayColor
     @refreshControl.addTarget self, action: :pull_refresh, forControlEvents:UIControlEventValueChanged
     self.refreshControl = @refreshControl
   end
@@ -74,6 +79,7 @@ class CommentListController < UITableViewController
       @client.get(endpoint) do |result|
         if result.success?
           data = result.object["comments"].map { |i| LobstersComment.new i }
+          puts data
           @cb.call data
         else
           show_error result.error.localizedDescription

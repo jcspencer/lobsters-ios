@@ -149,6 +149,8 @@ class StoryListController < UITableViewController
       if !err # we're ok
         @stories = data # set the data
         view.reloadData # reload the table view
+      else
+        @stories = @stories
       end
 
       @refreshControl.endRefreshing # stop spinning
