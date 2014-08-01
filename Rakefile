@@ -14,7 +14,7 @@ Motion::Project::App.setup do |app|
   # Use `rake config' to see complete project settings.
   app.name = 'Lobsters'
 
-  app.version = '1.0'
+  app.version = '1.1'
   app.deployment_target = '7.0'
   app.identifier = 'com.jamess237.lobsters'
   app.codesign_certificate = "iPhone Distribution: James Spencer"
