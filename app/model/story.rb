@@ -5,7 +5,7 @@ class LobstersStory
 
   # parsed json > variables
   def initialize(data)
-    @url = NSURL.URLWithString(data["url"])
+    @url = NSURL.URLWithString(data["url"] == "" ? data["comments_url"] : data["url"])
     @title = data["title"]
     @author = LobstersUser.new data["submitter_user"]
     @comments = data["comment_count"]

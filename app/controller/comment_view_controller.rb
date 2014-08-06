@@ -79,7 +79,6 @@ class CommentListController < UITableViewController
       @client.get(endpoint) do |result|
         if result.success?
           data = result.object["comments"].map { |i| LobstersComment.new i }
-          puts data
           @cb.call data
         else
           show_error result.error.localizedDescription
